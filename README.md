@@ -22,8 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
+url = "mysql2://user:password@localhost:3306/app_dev"
 ConnectionUrlResolver.new(url).to_hash
+# =>
+{
+  "adapter" => "mysql2",
+  "username" => "user",
+  "password" => "password",
+  "port" => "3306",
+  "database" => "app_dev",
+  "host" => "localhost"
+}
 ```
 
 ## License, Contributor's Guidelines

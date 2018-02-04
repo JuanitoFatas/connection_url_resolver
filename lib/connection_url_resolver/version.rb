@@ -1,3 +1,3 @@
-module ConnectionUrlResolver
+class ConnectionUrlResolver
   VERSION = "0.0.0"
 end
