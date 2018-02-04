@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    connection_url_resolver (0.0.0)
+    connection_url_resolver (1.0.0)
 
 GEM
   remote: https://rubygems.org/
