@@ -1,5 +1,7 @@
 # ConnectionUrlResolver
 
+[![Build Status](https://travis-ci.org/JuanitoFatas/connection_url_resolver.svg?branch=master)](https://travis-ci.org/JuanitoFatas/connection_url_resolver)
+
 Resolve connection URL into Hash.
 
 ## Installation
